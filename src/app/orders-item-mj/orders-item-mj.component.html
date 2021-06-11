@@ -1,0 +1,9 @@
+<div class="card p-1 m-2">
+  <img [src]="image" class="card-img-top" alt="...">
+  <div class="card-body text-center">
+    <h5 class="card-title">{{title}}</h5>
+    <span class="badge rounded-pill bg-secondary bg-success">{{price}} PLN</span>
+    <p class="card-text">{{text}}</p>
+    <a [routerLink]="['/orders/'+id]" class="btn btn-secondary">Go to details</a>
+  </div>
+</div>
